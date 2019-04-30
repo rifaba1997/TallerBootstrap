@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Formulario Inscripcion Universidad</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="formularioU.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-----------------------------botones-------------------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!------------------------barra de progreso--------------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-----------------------------------PILLS Y TABS----------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!------------------------Area de Texto---------------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style>
+        .button {
+            background-color: rgb(245, 140, 3); /* Green */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          
+          .button4 {border-radius: 12px;}
+          
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <header align="center" >Institucion Educativa Municipal Libertad</header>      
+        </div>
+    </div>
+    <div class="container">
+            <ul class="nav nav-pills nav-justified">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Organizacion</a></li>
+              <li><a href="#">Historia</a></li>
+              <li><a href="#">Servicios</a></li>
+            </ul>
+          </div>
+    <div class="container">
+            <h2 align="center">PROGRESO DE LA INSCRIPCION</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                40%
+              </div>
+            </div>
+    </div>
+    <div id="principal" >
+        <cuerpo>
+            <form action="" method="GET">
+                    <table border="1" style="margin: 0 auto">
+                            <tr align="center">
+                                <td colspan="2">
+                                    <subtitulo>
+                                            FORMULARIO DE INSCRIPCION
+                                    </subtitulo>                            
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Estudiante:</td>
+                                <td>
+                                    Nuevo<input type="checkbox" name="tipo_est" value="nuevo">
+                                    Antiguo<input type="checkbox" name="tipo_est" value="antiguo" checked>
+                                    Extranjero<input type="checkbox" name="tipo_est" value="extranjero">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Colegio: <input type="text" name="colegio_es">
+                                </td>
+                                <td>
+                                    Foto  <input type="file" name="foto_es" accept="image/jpeg, image/png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Año: <input type="number" name="año_es" min="2000" max="2030" step="1" value="2019"></td>
+                                <td>Grado: <input type="number" name="grado_es" min="1" max="11" step="1" value="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">IMPORTANTE: LEER DE MANERA DETENIDA</td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <p align="justify" >
+                                        1. El diligenciamiento de esta ficha no constituye reserva de cupo y no reemplaza la gestión de matrícula académica en la fecha asignada. 
+                                        Por favor entréguela con los demás documentos exigidos por el Colegio dentro de las fechas establecidas para ello: 1 foto formato png o jpeg, Registro Civil de Nacimiento y Constancia de Estudio. 
+                                        Para personas con Convenio Única, Intercajas o Policía, carta salarial con vigencia menor a un (1) mes y fotocopia de la credencial.<br> 
+                                        2. Para estudiantes extranjeros, deben presentar Fotocopia de la VISA vigente expedida por la autoridad competente, que los faculte para realizar estudios en Colombia.<br> 
+                                        3. El colegio se reservará la asignación del cupo y la jornada, según disponibilidad y cumplimiento del cronograma establecido por la Institución.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">INFORMACION DEL ESTUDIANTE</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Primer Apelli: <input type="text" name="primer_ap">
+                                    Segundo Apelli: <input type="text" name="segundo_ap">
+                                    Primer Nombre: <input type="text" name="primer_no">
+                                    Segundo Nombre: <input type="text" name="segundo_no">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Lugar Naci <input type="text" name="nacimiento_es">
+                                    Fecha Naci <input type="date" name="fecha_es">
+                                </td>
+                                <td align="right">
+                                        Genero: <input type="radio" name="genero_es"  value="M" checked>M
+                                                <input type="radio" name="genero_es" value="F">F    |
+                                        Grupo Sanguineo: <input type="text" name="rh">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tipo Doc: <input type="text" name="doc_es" list="opciones">
+                                    <datalist id="opciones">
+                                            <option value="Tarjeta Identidad">
+                                            <option value="Cedula Ciudadania">
+                                            <option value="Cedula Extranjera">
+                                    </datalist>
+                                    N° Doc: <input type="number" name="cedula">
+                                </td>
+                                <td align="right">
+                                    Expedido En: <input type="date" name="fecha_doc">
+                                    Ciudad:      <input type="text" name="Ciudad_doc"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Direccion: <input type="text" name="direccion_es">      | 
+                                    Ciudad:    <input type="text" name="ciudad_es">         |
+                                    Barrio:    <input type="text" name="barrio_es">         |   
+                                    Estrato:   <input type="text" name="estrato_es">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Telefono:<input type="number" name="telefono_es">
+                                    Celular:<input type="number" name="celular_es">
+                                </td>
+                                <td>
+                                    Correo Electronico:<input type="email" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}$"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">INFORMACION REQUERIDA POR EL MINISTERIO DE EDUCACION Y PROTECCION SOCIAL</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Discapacidad:<input type="checkbox" name="discapacidad" value="No" checked>No
+                                                 <input type="checkbox" name="discapacidad" value="Si">Si
+                                                 ¿Cual? <input type="text" name="disc_es"><br>
+                                    Etnia:      <input type="checkbox" name="etnia" value="No" checked>No
+                                                 <input type="checkbox" name="etnia" value="Si">Si
+                                                 ¿Cual? <input type="text" name="etnia_es"><br>
+                                    Resguardo:  <input type="checkbox" name="resguardo" value="No" checked>No
+                                                 <input type="checkbox" name="resguardo" value="Si">Si
+                                                 ¿Cual? <input type="text" name="resg_es"><br>
+                                </td>
+                                <td>
+                                    Poblacion Victima de conflicto<br>
+                                    <input type="checkbox" name="disv_grupo_arm">Disvinculado Grupos Armados<br>
+                                    <input type="checkbox" name="situa_desp">Situacion de Desplazamiento<br>
+                                    <input type="checkbox" name="hijo_ad_desp">Hijo de Adult Desplazado<br>
+                                    <input type="checkbox" name="victima_min">Victima de Mina<br>
+                                    <input type="checkbox" name="no_aplica">No Aplica
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">INFORMACIÓN REQUERIDA POR EL MINISTERIO DE RELACIONES EXTERIORES PARA ESTUDIANTES EXTRANJEROS</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tipo Visa: <input type="text" name="visa">
+                                </td>
+                                <td>
+                                    Fecha Expedicion <input type="date" name="fecha_expedi_visa">
+                                    Fecha Expiracion <input type="date" name="fecha_expir_visa">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Afiliacion a Salud:<br>
+                                    EPS:<input type="checkbox" name="eps" value="Si">Si
+                                        <input type="checkbox" name="eps" value="No" checked>No
+                                        <input type="text" name="nombre_eps"><br>
+                                    SISBEN:<input type="checkbox" name="sisben" value="Si">Si
+                                        <input type="checkbox" name="sisben" value="No" checked>No
+                                        <input type="text" name="sisben_es" list="opciones1"><br>
+                                        <datalist id="opciones1">
+                                                <option value="Nivel 1">
+                                                <option value="Nivel 2">
+                                                <option value="Nivel 3">
+                                                <option value="Nivel 4">
+                                        </datalist>
+
+                                </td>
+                                <td>
+                                    <label>Informacion Importante:<br>
+                                        1.Alergias o enfermedades(medicamentos,etc.) 
+                                    </label> <br>
+                                    <textarea name="enfermedad" class="form-control" rows="5" ></textarea><br>
+                                    Establecimiento Educativo del cual Proviene: <input type="text" name="colegio_ant">
+
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">INFORMACION ECONOMICA DE LOS FAMILIARES</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        <p align="justify" >
+                                            Se debe entregar un documento formato pdf el cual contiene toda la informacion economica tanto del padre como de la madre
+                                            para ello se necesitan la siguiente informacion:<br> 
+                                            1. Cedula de ciudadania(Del padre y de la madre), Documento emitido por un contador sobre los ingresos anuales (Padre y madre).<br> 
+                                            2. EPS(Padre y madre)
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Datos Del Padre:<input type="file" accept="application/pdf">
+                                    </td>
+                                    <td>
+                                        Datos de la Madre:<input type="file" accept="application/pdf">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        <div class="container">
+                                            <input type="submit" class="btn btn-success">
+                                            <input type="reset" class="btn btn-danger">
+                                                
+                                          </div>
+                                    </td>
+                                </tr>
+                        </table>
+
+            </form>
+        </cuerpo>
+    </div>
+    
+   
+
+</body>
+</html>
